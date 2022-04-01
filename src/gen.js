@@ -59,7 +59,7 @@ const baseHtml = (htmlArr) => `
 <body>
   <header>
   <div class="jumbotron">
-  <h1 class="display-4">My Team</h1>
+  <h1 class="display-4">My Valorant Agents</h1>
   <p class="lead"></p>
   <hr class="my-4">
 </div>
