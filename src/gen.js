@@ -11,7 +11,7 @@ const generateManagerCard = (manager) => {
     <li class="list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
   </ul>
 </div>
-  `
+  `;
 };
 
 const generateEngineerCard = (engineer) => {
@@ -27,7 +27,7 @@ const generateEngineerCard = (engineer) => {
     <li class="list-group-item">Github Username: ${engineer.getGithub()}</li>
   </ul>
 </div>
-  `
+  `;
 };
 
 const generateInternCard = (intern) => {
@@ -43,7 +43,7 @@ const generateInternCard = (intern) => {
     <li class="list-group-item">School: ${intern.getSchool()}</li>
   </ul>
 </div>
-  `
+  `;
 };
 
 const baseHtml = (htmlArr) => `
@@ -54,7 +54,7 @@ const baseHtml = (htmlArr) => `
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Software Engineering Team Profile</title>
+  <title>Valorant Team Profile</title>
 </head>
 <body>
   <header>
@@ -73,11 +73,11 @@ const baseHtml = (htmlArr) => `
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
-`
+`;
 
 module.exports = {
   generateManagerCard,
   generateEngineerCard,
   generateInternCard,
   baseHtml,
-}
+};
