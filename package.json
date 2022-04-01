@@ -2,5 +2,28 @@
   "dependencies": {
     "inquirer": "^8.2.2",
     "jest": "^27.5.1"
-  }
+  },
+  "name": "make_team_profile",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emanconcepcion/make_team_profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emanconcepcion/make_team_profile/issues"
+  },
+  "homepage": "https://github.com/Emanconcepcion/make_team_profile#readme"
 }
