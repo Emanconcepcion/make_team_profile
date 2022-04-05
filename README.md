@@ -17,6 +17,8 @@ By answering couple of simple questions you will be able to generate a card with
 # Resources
 
 -https://github.com/Emanconcepcion/make_team_profile
+-https://emanconcepcion.github.io/make_team_profile/dist/
+-https://drive.google.com/file/d/1Hdlip7lbOFTvgID09kH6yqBWkAsGV6cL/view
 
 # Screenshots
 
